@@ -1,11 +1,10 @@
-Samar Rahmouni
+Resume 
 ============
-
+Samar Rahmouni
 ----
 
 >  Formal Verification & Reinforcement Learning \
 >  The future is neurosymbolic
-
 ----
 
 Education
@@ -27,6 +26,11 @@ Education
 
 Experience
 ----------
+
+* **Stagiaire M1** 
+  * **@ Partout - INRIA Saclay** 
+  
+Implemented proof search for Pomset and BV logic, as part of the effort to have a useful tool for researchers. In the process of both verifying the correctness of the prover and choosing heuristics to optimize the search. 
 
 * **Course Assistant for Constructive Logic (15-317) and Artificial Inteligence (15-281)**
   * **@ CMU Qatar**
@@ -53,7 +57,8 @@ Taugh Computer Science teachers basics of Java, by designing 2-week curriculum. 
 Research Experience
 --------------------
 
-**Proof Search in Pomset and BV logic (in progress)** Advised by Lutz Straßburger 
+**Proof Search in Pomset and BV logic (in progress)** 
+Advised by Lutz Straßburger 
 * Implementation was done in Ocaml while making use of the 'Logical' tool for the proof search of BV, specifically. 
 * Proof search in Pomset was implemented as the search of cycles on graphs: restricted to balanced formulas 
 * The implementation in Pomset was used as a benchmark for testing the proof search on BV 
@@ -81,49 +86,31 @@ Vivek Nigam, Giselle Reis, Samar Rahmouni and Harald Ruess, **CADE28**
 * Provided a logical framework for distributed evidential transactions 
 * Compiled relevant related work 
 * Proved cut-elimination for the logic (interesting proof found in annex of the paper) 
+* [(www.)](http://nigam.info/docs/cade21.pdf)
 
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
-
-Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
-
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
-
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
-
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
-
-[ref]: https://github.com/githubuser/superlongprojectname
-
-Extra Section, Call it Whatever You Want
+Academics
 ----------------------------------------
 
-* Human Languages:
-
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
-
-* Random tidbit
-
-* Other sort of impressive-sounding thing you did
-
+I love meeting people. You might have seen me at: 
+* OurCS conference in CMU Pittsburgh in 2018
+* CADE28 in 2021 
+* POPL21 - Student scholarship and mentor/mentee program
+* SPLASH21 - Student scholarship 
+* Differential Lambda Calculus @ CIRM Marseille 2024 
 ----
 
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
+**Random things about me**
+
+I speak French, Arabic and English fluently. I have conversational skills in German and Spanish and currently, learning Italian.  
+
+I founded the Dungeons and Dragons Club in 2019 in CMU Qatar and was advised by Michael Trick, also a very avid DnD player! 
+
+I volunteered in Greece at a syrian refugee camp and filmed a documentary. I also was part of years-long effort to improve ICT education in Rwanda, it culminated in a meeting with his Presidency Paul Kagame, on how we could make a meaningful change. 
+
+I won second place in the Qatar Mathematics Championship in 2018. 
+
+I have a collection of funky socks with at least 50 pairs from different countries. 
+
+---
+> Contact me @ < samar dot rahmouni at outlook dot com> • 24 years old
+> in Paris, France
