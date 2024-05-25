@@ -1,7 +1,9 @@
-Resume 
+About me
 ============
 Samar Rahmouni
 ----
+
+![image](photo.jpg)
 
 >  Formal Verification & Reinforcement Learning \
 >  The future is neurosymbolic
@@ -51,6 +53,7 @@ Implemented a theorem prover for classical and constructive logic where the unde
 
 * **Java Instructor** 
   * **@ CMU Africa**
+
 Taugh Computer Science teachers basics of Java, by designing 2-week curriculum. Met with President Paul Kagame to discuss the future of education in Rwanda. The project was done by closely working with CMU Pittsburgh and CMU Africa. 
 
 
@@ -112,5 +115,5 @@ I won second place in the Qatar Mathematics Championship in 2018.
 I have a collection of funky socks with at least 50 pairs from different countries. 
 
 ---
-> Contact me @ < samar dot rahmouni at outlook dot com> • 24 years old
+> Contact me @ < samar dot rahmouni at outlook dot com> • 24 years old living
 > in Paris, France
