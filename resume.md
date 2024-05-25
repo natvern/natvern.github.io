@@ -1,375 +1,99 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
-<head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>resume</title>
-  <style>
-    html {
-      line-height: 1.5;
-      font-family: Georgia, serif;
-      font-size: 20px;
-      color: #1a1a1a;
-      background-color: #fdfdfd;
-    }
-    body {
-      margin: 0 auto;
-      max-width: 36em;
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      hyphens: auto;
-      overflow-wrap: break-word;
-      text-rendering: optimizeLegibility;
-      font-kerning: normal;
-    }
-    @media (max-width: 600px) {
-      body {
-        font-size: 0.9em;
-        padding: 1em;
-      }
-      h1 {
-        font-size: 1.8em;
-      }
-    }
-    @media print {
-      body {
-        background-color: transparent;
-        color: black;
-        font-size: 12pt;
-      }
-      p, h2, h3 {
-        orphans: 3;
-        widows: 3;
-      }
-      h2, h3, h4 {
-        page-break-after: avoid;
-      }
-    }
-    p {
-      margin: 1em 0;
-    }
-    a {
-      color: #1a1a1a;
-    }
-    a:visited {
-      color: #1a1a1a;
-    }
-    img {
-      max-width: 100%;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 1.4em;
-    }
-    h5, h6 {
-      font-size: 1em;
-      font-style: italic;
-    }
-    h6 {
-      font-weight: normal;
-    }
-    ol, ul {
-      padding-left: 1.7em;
-      margin-top: 1em;
-    }
-    li > ol, li > ul {
-      margin-top: 0;
-    }
-    blockquote {
-      margin: 1em 0 1em 1.7em;
-      padding-left: 1em;
-      border-left: 2px solid #e6e6e6;
-      color: #606060;
-    }
-    code {
-      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
-      font-size: 85%;
-      margin: 0;
-    }
-    pre {
-      margin: 1em 0;
-      overflow: auto;
-    }
-    pre code {
-      padding: 0;
-      overflow: visible;
-      overflow-wrap: normal;
-    }
-    .sourceCode {
-     background-color: transparent;
-     overflow: visible;
-    }
-    hr {
-      background-color: #1a1a1a;
-      border: none;
-      height: 1px;
-      margin: 1em 0;
-    }
-    table {
-      margin: 1em 0;
-      border-collapse: collapse;
-      width: 100%;
-      overflow-x: auto;
-      display: block;
-      font-variant-numeric: lining-nums tabular-nums;
-    }
-    table caption {
-      margin-bottom: 0.75em;
-    }
-    tbody {
-      margin-top: 0.5em;
-      border-top: 1px solid #1a1a1a;
-      border-bottom: 1px solid #1a1a1a;
-    }
-    th {
-      border-top: 1px solid #1a1a1a;
-      padding: 0.25em 0.5em 0.25em 0.5em;
-    }
-    td {
-      padding: 0.125em 0.5em 0.25em 0.5em;
-    }
-    header {
-      margin-bottom: 4em;
-      text-align: center;
-    }
-    #TOC li {
-      list-style: none;
-    }
-    #TOC ul {
-      padding-left: 1.3em;
-    }
-    #TOC > ul {
-      padding-left: 0;
-    }
-    #TOC a:not(:hover) {
-      text-decoration: none;
-    }
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
-    }
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-  </style>
-  <style type="text/css">
-  /*
-   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
-   *
-   * CSS for making a resume with pandoc. Inspired by moderncv.
-   *
-   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
-   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
-   */
+Samar Rahmouni
+============
 
-  /* Whole document */
-  body {
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      max-width: 800px;
-      margin: auto;
-      background: #FFFFFF;
-      padding: 10px 10px 10px 10px;
-  }
+----
 
-  /* Title of the resume */
-  h1 {
-      font-size: 55px;
-      color: #757575;
-      text-align:center;
-      margin-bottom:15px;
-  }
-  /* h1:hover { */
-  /*     background-color: #757575; */
-  /*     color: #FFFFFF; */
-  /*     text-shadow: 1px 1px 1px #333; */
-  /* } */
+>  Formal Verification & Reinforcement Learning \
+>  The future is neurosymbolic
 
-  /* Titles of categories */
-  h2 {
-      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
-      color: #397249;
-  }
-  /* There is a bar just before each category */
-  h2:before {
-      content: "";
-      display: inline-block;
-      margin-right:1%;
-      width: 16%;
-      height: 10px;
-      /* This is called "rulecolor" in the ConTeXt stylesheet. */
-      background-color: #9CB770;
-  }
-  /* h2:hover { */
-  /*     background-color: #397249; */
-  /*     color: #FFFFFF; */
-  /*     text-shadow: 1px 1px 1px #333; */
-  /* } */
+----
 
-  /* Definitions */
-  dt {
-      float: left;
-      clear: left;
-      width: 17%;
-      font-weight: bold;
-  }
-  dd {
-      margin-left: 17%;
-      margin-bottom:7px;
-  }
-  p {
-      margin-top:0;
-      margin-bottom:7px;
-  }
+Education
+---------
 
-  /* Blockquotes */
-  blockquote {
-      text-align: center
-  }
+2023-2025 (excepted)
+:   **Master en Rercherche Informatique**; Ecole Polytechnique, Paris
 
-  /* Links */
-  a {
-      text-decoration: none;
-      color: #397249;
-  }
-  a:hover, a:active {
-      background-color: #397249;
-      color: #FFFFFF;
-      text-decoration: none;
-      text-shadow: 1px 1px 1px #333;
-  }
+    *Projet M1 on Graphical Algebra and its applications to Category Theory, implementation in Agda, advised by Samuel Mimram*
+    *Stage M1 with Partout on an implementation of proof search for Pomset and BV logic, advised by Lutz Straßburger* \ 
 
-  /* Horizontal separators */
-  hr {
-      color: #A6A6A6;
-  }
+2018-2022
+:   **B.S., Computer Science**; Carnegie Mellon University
 
-  table {
-      width: 100%;
-  }
-  </style>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
-</head>
-<body>
-<h1 id="samar-rahmouni">Samar Rahmouni</h1>
-<hr />
-<blockquote>
-<p>Formal Verification &amp; Reinforcement Learning<br />
-The future is neurosymbolic</p>
-</blockquote>
-<hr />
-<h2 id="education">Education</h2>
-<dl>
-<dt>2023-2025 (excepted)</dt>
-<dd>
-<p><strong>Master en Rercherche Informatique</strong>; Ecole
-Polytechnique, Paris</p>
-<p><em>Projet M1 on Graphical Algebra and its applications to Category
-Theory, implementation in Agda, advised by Samuel Mimram</em> <em>Stage
-M1 with Partout on an implementation of proof search for Pomset and BV
-logic, advised by Lutz Straßburger</em><br />
-</p>
-</dd>
-<dt>2018-2022</dt>
-<dd>
-<p><strong>B.S., Computer Science</strong>; Carnegie Mellon
-University</p>
-<p><em>Honors Thesis: Domain Informed Oracle for Reinforcement Learning,
-advised by Giselle Reis, Gianni Di Caro and Eduardo Feo Flushing</em>  
-<em>Concentration in Programming Languages</em></p>
-</dd>
-</dl>
-<h2 id="experience">Experience</h2>
-<p><strong>Course Assistant for Constructive Logic (15-317) and
-Artificial Inteligence (15-281) @ CMU Qatar:</strong></p>
-<p>Provided 1-1 tutoring to provide students with weekly helped, made
-autograders for the programming sections of the homeworks, wrote
-guidelines and reviewed midterms and assignments.</p>
-<p><strong>Teaching Assistant for Software Foundations of Security and
-Privacy (15-316) @ CMU Pittsburgh and Qatar:</strong> Proctored
-examinations, met weekly with the teaching staff to better adapt grading
-and wordings. In Qatar, I wrote the homework solutions for future
-iterations of the course.</p>
-<p><strong>Undergraduate Research Assistant @ CMU Qatar:</strong> Funded
-by Giselle Reis. Implemented a theorem prover for classical and
-constructive logic where the underlying types are objects. The prover
-was later automated for classical by making use of G3CP invertible
-rules. The project has an easy-to-use graphical interface to be used by
-students learning about logic.</p>
-<p><strong>Java Instructor @ CMU Africa:</strong> Taugh Computer Science
-teachers basics of Java, by designing 2-week curriculum. Met with
-President Paul Kagame to discuss the future of education in Rwanda. The
-project was done by closely working with CMU Pittsburgh and CMU
-Africa.</p>
-<h2 id="research-experience">Research Experience</h2>
-<p><strong>Domain Informed Oracle for Reinforcement Learning
-(dio):</strong> * Implemented a domain-informed module in ProgLog to
-guide the reward shaping of a Reinforcement Learning (RL) module *
-Independently gathered related work to better identify the problem of
-reward shaping in RL and investigate possible solutions * Adapted a
-deep-learning architecture to include a logic module, the model was
-formalized accordingly * <a href="main.pdf">link</a></p>
-<dl>
-<dt>Open Source</dt>
-<dd>
-List open source contributions here, perhaps placing emphasis on the
-project names, for example the <strong>Linux Kernel</strong>, where you
-implemented multithreading over a long weekend, or
-<strong>node.js</strong> (with <a href="http://nodejs.org"
-target="_blank">link</a>) which was actually totally your idea…
-</dd>
-<dt>Programming Languages</dt>
-<dd>
-<strong>first-lang:</strong> Here, we have an itemization, where we only
-want to add descriptions to the first few items, but still want to
-mention some others together at the end. A format that works well here
-is a description list where the first few items have their first word
-emphasized, and the last item contains the final few emphasized terms.
-Notice the reasonably nice page break in the pdf version, which wouldn’t
-happen if we generated the pdf via html.
-</dd>
-<dd>
-<p><strong>second-lang:</strong> Description of your experience with
-second-lang, perhaps again including a [link] <a
-href="https://github.com/githubuser/superlongprojectname"
-target="_blank">ref</a>, this time placing the url reference elsewhere
-in the document to reduce clutter (see source file).</p>
-</dd>
-<dd>
-<p><strong>obscure-but-impressive-lang:</strong> We both know this one’s
-pushing it.</p>
-</dd>
-<dd>
-<p>Basic knowledge of <strong>C</strong>, <strong>x86 assembly</strong>,
-<strong>forth</strong>, <strong>Common Lisp</strong></p>
-</dd>
-</dl>
-<h2 id="extra-section-call-it-whatever-you-want">Extra Section, Call it
-Whatever You Want</h2>
-<ul>
-<li><p>Human Languages:</p>
-<ul>
-<li>English (native speaker)</li>
-<li>???</li>
-<li>This is what a nested list looks like.</li>
-</ul></li>
-<li><p>Random tidbit</p></li>
-<li><p>Other sort of impressive-sounding thing you did</p></li>
-</ul>
-<hr />
-<blockquote>
-<p><a href="mailto:email@example.com"
-class="email">email@example.com</a> • +00 (0)00 000 0000 • XX years
-old<br />
-address - Mytown, Mycountry</p>
-</blockquote>
-</body>
-</html>
+    *Honors Thesis: Domain Informed Oracle for Reinforcement Learning, advised by Giselle Reis, Gianni Di Caro and Eduardo Feo Flushing* \ 
+    *Concentration in Programming Languages*
+
+
+Experience
+----------
+
+**Course Assistant for Constructive Logic (15-317) and Artificial Inteligence (15-281) @ CMU Qatar:**
+
+Provided 1-1 tutoring to provide students with weekly helped, made autograders for the programming sections of the homeworks, wrote guidelines and reviewed midterms and assignments. 
+
+**Teaching Assistant for Software Foundations of Security and Privacy (15-316) @ CMU Pittsburgh and Qatar:**
+Proctored examinations, met weekly with the teaching staff to better adapt grading and wordings. In Qatar, I wrote the homework solutions for future iterations of the course.
+
+
+**Undergraduate Research Assistant @ CMU Qatar:**
+Funded by Giselle Reis. 
+Implemented a theorem prover for classical and constructive logic where the underlying types are objects. The prover was later automated for classical by making use of G3CP invertible rules. The project has an easy-to-use graphical interface to be used by students learning about logic. 
+
+**Java Instructor @ CMU Africa:**
+Taugh Computer Science teachers basics of Java, by designing 2-week curriculum. Met with President Paul Kagame to discuss the future of education in Rwanda. The project was done by closely working with CMU Pittsburgh and CMU Africa. 
+
+
+Research Experience
+--------------------
+
+**Domain Informed Oracle for Reinforcement Learning (dio):**
+* Implemented a domain-informed module in ProgLog to guide the reward shaping of a Reinforcement Learning (RL) module 
+* Independently gathered related work to better identify the problem of reward shaping in RL and investigate possible solutions
+* Adapted a deep-learning architecture to include a logic module, the model was formalized accordingly 
+* [link](main.pdf) 
+
+Open Source
+:   List open source contributions here, perhaps placing emphasis on
+    the project names, for example the **Linux Kernel**, where you
+    implemented multithreading over a long weekend, or **node.js**
+    (with [link](http://nodejs.org)) which was actually totally
+    your idea...
+
+Programming Languages
+:   **first-lang:** Here, we have an itemization, where we only want
+    to add descriptions to the first few items, but still want to
+    mention some others together at the end. A format that works well
+    here is a description list where the first few items have their
+    first word emphasized, and the last item contains the final few
+    emphasized terms. Notice the reasonably nice page break in the pdf
+    version, which wouldn't happen if we generated the pdf via html.
+
+:   **second-lang:** Description of your experience with second-lang,
+    perhaps again including a [link] [ref], this time placing the url
+    reference elsewhere in the document to reduce clutter (see source
+    file). 
+
+:   **obscure-but-impressive-lang:** We both know this one's pushing
+    it.
+
+:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
+
+[ref]: https://github.com/githubuser/superlongprojectname
+
+Extra Section, Call it Whatever You Want
+----------------------------------------
+
+* Human Languages:
+
+     * English (native speaker)
+     * ???
+     * This is what a nested list looks like.
+
+* Random tidbit
+
+* Other sort of impressive-sounding thing you did
+
+----
+
+> <email@example.com> • +00 (0)00 000 0000 • XX years old\
+> address - Mytown, Mycountry
