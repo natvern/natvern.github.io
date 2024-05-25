@@ -12,7 +12,7 @@ Samar Rahmouni
 Education
 ---------
 
-2023-2025 (excepted)
+2023 - ??
 :   **Master en Rercherche Informatique**; Ecole Polytechnique, Paris
 * Projet M1 on Graphical Algebra and its applications to Category Theory, implementation in Agda
   *  Advised by Samuel Mimram 
