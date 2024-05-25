@@ -3,10 +3,8 @@ layout: page
 title: About me
 ---
 
-About me
-============
 Samar Rahmouni
-----
+============
 
 ![image](photo.jpg)
 
