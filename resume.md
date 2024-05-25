@@ -97,7 +97,7 @@ I love meeting people. You might have seen me at:
 * POPL21 - Student scholarship and mentor/mentee program
 * SPLASH21 - Student scholarship 
 * Differential Lambda Calculus @ CIRM Marseille 2024 
-----
+
 
 **Random things about me**
 
