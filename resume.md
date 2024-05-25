@@ -1,9 +1,3 @@
----
-layout: page
-title: Resume
----
-
-
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
@@ -274,38 +268,56 @@ The future is neurosymbolic</p>
 <hr />
 <h2 id="education">Education</h2>
 <dl>
-<dt>2018-2022 (expected)</dt>
+<dt>2023-2025 (excepted)</dt>
+<dd>
+<p><strong>Master en Rercherche Informatique</strong>; Ecole
+Polytechnique, Paris</p>
+<p><em>Projet M1 on Graphical Algebra and its applications to Category
+Theory, implementation in Agda, advised by Samuel Mimram</em> <em>Stage
+M1 with Partout on an implementation of proof search for Pomset and BV
+logic, advised by Lutz Straßburger</em><br />
+</p>
+</dd>
+<dt>2018-2022</dt>
 <dd>
 <p><strong>B.S., Computer Science</strong>; Carnegie Mellon
 University</p>
-<p><em>Honors Thesis: Domain Informed Oracle for Reinforcement
-Learning</em> <em>Concentration in Programming Languages</em></p>
+<p><em>Honors Thesis: Domain Informed Oracle for Reinforcement Learning,
+advised by Giselle Reis, Gianni Di Caro and Eduardo Feo Flushing</em>  
+<em>Concentration in Programming Languages</em></p>
 </dd>
 </dl>
 <h2 id="experience">Experience</h2>
-<p><strong>Your Most Recent Work Experience:</strong></p>
-<p>Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and links:</p>
-<ul>
-<li><p>First item</p></li>
-<li><p>Item with <a href="http://www.example.com"
-target="_blank">link</a>. Links will work both in the html and pdf
-versions.</p></li>
-</ul>
-<p><strong>That Other Job You Had</strong></p>
-<p>Also with a short description.</p>
-<h2 id="technical-experience">Technical Experience</h2>
+<p><strong>Course Assistant for Constructive Logic (15-317) and
+Artificial Inteligence (15-281) @ CMU Qatar:</strong></p>
+<p>Provided 1-1 tutoring to provide students with weekly helped, made
+autograders for the programming sections of the homeworks, wrote
+guidelines and reviewed midterms and assignments.</p>
+<p><strong>Teaching Assistant for Software Foundations of Security and
+Privacy (15-316) @ CMU Pittsburgh and Qatar:</strong> Proctored
+examinations, met weekly with the teaching staff to better adapt grading
+and wordings. In Qatar, I wrote the homework solutions for future
+iterations of the course.</p>
+<p><strong>Undergraduate Research Assistant @ CMU Qatar:</strong> Funded
+by Giselle Reis. Implemented a theorem prover for classical and
+constructive logic where the underlying types are objects. The prover
+was later automated for classical by making use of G3CP invertible
+rules. The project has an easy-to-use graphical interface to be used by
+students learning about logic.</p>
+<p><strong>Java Instructor @ CMU Africa:</strong> Taugh Computer Science
+teachers basics of Java, by designing 2-week curriculum. Met with
+President Paul Kagame to discuss the future of education in Rwanda. The
+project was done by closely working with CMU Pittsburgh and CMU
+Africa.</p>
+<h2 id="research-experience">Research Experience</h2>
+<p><strong>Domain Informed Oracle for Reinforcement Learning
+(dio):</strong> * Implemented a domain-informed module in ProgLog to
+guide the reward shaping of a Reinforcement Learning (RL) module *
+Independently gathered related work to better identify the problem of
+reward shaping in RL and investigate possible solutions * Adapted a
+deep-learning architecture to include a logic module, the model was
+formalized accordingly * <a href="main.pdf">link</a></p>
 <dl>
-<dt>My Cool Side Project</dt>
-<dd>
-<p>For items which don’t have a clear time ordering, a definition list
-can be used to have named items.</p>
-<ul>
-<li>These items can also contain lists, but you need to mind the
-indentation levels in the markdown source.</li>
-<li>Second item.</li>
-</ul>
-</dd>
 <dt>Open Source</dt>
 <dd>
 List open source contributions here, perhaps placing emphasis on the
