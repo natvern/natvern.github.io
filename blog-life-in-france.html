@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life in France - Rambling ¬Logician</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        olive: {
+                            50: '#f8f9f4',
+                            100: '#f0f2e8',
+                            200: '#e1e5d1',
+                            300: '#cdd4b0',
+                            400: '#b5c089',
+                            500: '#9ca968',
+                            600: '#7d8a4f',
+                            700: '#626b3f',
+                            800: '#505635',
+                            900: '#44492e',
+                        },
+                        stone: {
+                            50: '#fafaf9',
+                            100: '#f5f5f4',
+                            200: '#e7e5e4',
+                            300: '#d6d3d1',
+                            400: '#a8a29e',
+                            500: '#78716c',
+                            600: '#57534e',
+                            700: '#44403c',
+                            800: '#292524',
+                            900: '#1c1917',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen bg-stone-50">
+    <!-- Header -->
+    <header class="border-b border-stone-200 bg-white/80 backdrop-blur-sm sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div>
+                    <h1 class="text-2xl font-bold text-stone-900">
+                        <a href="index.html" class="hover:text-olive-600 transition-colors">
+                            Rambling <span class="text-olive-600">¬</span> Logician
+                        </a>
+                    </h1>
+                    <p class="text-sm text-stone-600 mt-1">PhD Student & Researcher</p>
+                </div>
+                <nav class="flex items-center gap-6">
+                    <a href="blog.html" class="text-stone-700 hover:text-olive-600 transition-colors font-medium">
+                        Blog Archive
+                    </a>
+                    <a href="about.html" class="text-stone-700 hover:text-olive-600 transition-colors font-medium">
+                        About me
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6 py-12">
+        <!-- Back Navigation -->
+        <div class="mb-8">
+            <a href="index.html" class="inline-flex items-center gap-2 text-stone-600 hover:text-olive-600 transition-colors">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                </svg>
+                Back to Home
+            </a>
+        </div>
+
+        <!-- Article Header -->
+        <article class="mb-12">
+            <header class="mb-8">
+                <div class="bg-gradient-to-br from-olive-50 to-stone-100 rounded-2xl p-8 border border-olive-100">
+                    <h1 class="text-4xl font-bold text-stone-900 mb-4">Life in France</h1>
+
+                    <div class="flex flex-wrap items-center gap-4 text-stone-600 mb-6">
+                        <div class="flex items-center gap-2">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                            </svg>
+                            <span class="text-sm">May 25, 2024</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                            </svg>
+                            <span class="text-sm">Samar Rahmouni</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            <span class="text-sm">5 min read</span>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-3">
+                        <button class="inline-flex items-center gap-2 border border-olive-200 text-olive-700 hover:bg-olive-50 bg-transparent px-3 py-1 rounded text-sm transition-colors">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.367 2.684 3 3 0 00-5.367-2.684z"></path>
+                            </svg>
+                            Share
+                        </button>
+                        <span class="bg-olive-100 text-olive-800 px-2 py-1 rounded text-sm">Personal</span>
+                        <span class="bg-olive-100 text-olive-800 px-2 py-1 rounded text-sm">Academic Life</span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Article Content -->
+            <div class="prose prose-stone max-w-none">
+                <div class="bg-white border border-stone-200 rounded-lg mb-8">
+                    <div class="p-6">
+                        <h2 class="text-2xl font-bold text-stone-900 mb-4">Figuring it out</h2>
+
+                        <div class="space-y-6 text-stone-700 leading-relaxed">
+                            <p>
+                                2 years after my first post, I am happy to say that life has turned around. It's been a year since I
+                                moved to France for my master. I was worried, very worried to be honest. My last time away from
+                                home, especially in the US, did not go that well. The responsibilities, and the work, and the
+                                competitiveness- I was happy to find a certain balance in France, that I was missing in the US.
+                            </p>
+
+                            <p>
+                                I have met some great people, especially those in my master. We struggle together and we rise
+                                together. It's especially interesting to see the different backgrounds of Computer Science everyone
+                                comes from and how that affects their understanding of further courses. I always thought my
+                                education in CMU was very theoretical, until I met bachelor students in France. Although I have a
+                                good understanding of applications of algorithms, and their analysis, I believe the mathematical
+                                tools in the French system can be bigger and harder to master. I found this to be the case,
+                                especially when talking with researchers and phd students in the field.
+                            </p>
+
+                            <p>
+                                I came into my master with no knowledge or understanding of what a category is. It is something I
+                                first learnt when attending a seminar about homotopy type theory. This seminar is probably one of
+                                those I could never forget: it first showed me the problem of equality its implications in type
+                                systems, and second, it mentioned a new abstraction of mathematics that solved the superset paradox
+                                that was mentioned in my undergrad but never pushed further upon. Last but not least, the presenter
+                                ended up becoming a good friend of mine and sparking much of the interest I got now in linear logic
+                                and category theory.
+                            </p>
+
+                            <p>
+                                I don't think I understand enough about the details, or even the formalizations, I will try to use
+                                this blog to report on my readings. The first book recommended to me was Tom Lensers' basic category
+                                theory. It all sounds like a challenging but fun read. :)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Article Footer -->
+            <footer class="mt-12">
+                <div class="border-t border-stone-200 mb-8"></div>
+
+                <!-- Navigation -->
+                <div class="flex items-center justify-between">
+                    <a href="blog-burn-out.html" class="flex items-center gap-2 text-stone-600 hover:text-olive-600 transition-colors group">
+                        <svg class="w-4 h-4 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                        </svg>
+                        <div class="text-left">
+                            <p class="text-xs text-stone-500 uppercase tracking-wide">Previous Post</p>
+                            <p class="font-medium">Burn-out</p>
+                        </div>
+                    </a>
+
+                    <a href="blog.html" class="flex items-center gap-2 text-stone-600 hover:text-olive-600 transition-colors group">
+                        <div class="text-right">
+                            <p class="text-xs text-stone-500 uppercase tracking-wide">Blog Archive</p>
+                            <p class="font-medium">All Posts</p>
+                        </div>
+                        <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </footer>
+        </article>
+
+        <!-- Related Posts -->
+        <section>
+            <h2 class="text-2xl font-bold text-stone-900 mb-6">Related Posts</h2>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-white border border-stone-200 rounded-lg hover:shadow-md transition-shadow">
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 text-sm text-stone-500 mb-2">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                            </svg>
+                            Sep 17, 2022
+                        </div>
+                        <h3 class="text-lg font-semibold text-stone-900 mb-2">
+                            <a href="blog-burn-out.html" class="hover:text-olive-600 transition-colors">
+                                Burn-out
+                            </a>
+                        </h3>
+                        <p class="text-stone-600 text-sm">
+                            Personal thoughts on academic burnout and strategies for maintaining mental health in research.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-stone-200 rounded-lg hover:shadow-md transition-shadow">
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 text-sm text-stone-500 mb-2">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                            </svg>
+                            Coming Soon
+                        </div>
+                        <h3 class="text-lg font-semibold text-stone-900 mb-2">Category Theory Readings</h3>
+                        <p class="text-stone-600 text-sm">
+                            Following up on my journey through Tom Lensers' basic category theory book and other mathematical
+                            explorations.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-stone-200 mt-20">
+        <div class="max-w-4xl mx-auto px-6 py-8">
+            <div class="text-center text-stone-500 text-sm">
+                <p>© 2024 Samar Rahmouni. Built with care for the academic community.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -82,7 +82,7 @@
                 <div class="flex flex-col md:flex-row gap-8 items-start">
                     <div class="flex-shrink-0">
                         <div class="relative">
-                            <img src="images/new-profile-photo.png" alt="Samar Rahmouni" class="w-70 h-70 rounded-2xl object-cover shadow-lg">
+                            <img src="profile-photo.jpg" alt="Samar Rahmouni" class="w-70 h-70 rounded-2xl object-cover shadow-lg">
                             <div class="absolute inset-0 rounded-2xl ring-1 ring-black/10"></div>
                         </div>
                     </div>
@@ -108,7 +108,7 @@
                         </div>
 
                         <div class="flex flex-wrap gap-3">
-                            <a href="cv/samar-rahmouni-cv.pdf" download="Samar_Rahmouni_CV.pdf" class="inline-flex items-center gap-2 bg-olive-600 hover:bg-olive-700 text-white px-4 py-2 rounded-md transition-colors">
+                            <a href="samar-rahmouni-cv.pdf" download="Samar_Rahmouni_CV.pdf" class="inline-flex items-center gap-2 bg-olive-600 hover:bg-olive-700 text-white px-4 py-2 rounded-md transition-colors">
                                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
                                 </svg>
@@ -216,6 +216,122 @@
                                     </p>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Projects Section -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-stone-900 mb-6">Research Projects</h2>
+
+            <div class="space-y-6">
+                <div class="bg-white border border-stone-200 rounded-lg">
+                    <div class="p-6 border-b border-stone-200">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <h3 class="text-xl font-bold text-stone-900">Proof Search in Pomset and BV logic</h3>
+                                <p class="text-olive-600 font-medium mt-1">Partout - INRIA Saclay</p>
+                            </div>
+                            <span class="inline-block border border-olive-200 text-olive-700 px-3 py-1 rounded-full text-sm">
+                                Apr 2024 - Aug 2024
+                            </span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-stone-600 text-sm leading-relaxed mb-3">
+                            Implementation was done in OCaml while making use of the 'Logical' tool for the proof search of BV,
+                            specifically. Proof search in Pomset was implemented as the search of cycles on graphs: restricted to
+                            balanced formulas. The implementation in Pomset was used as a benchmark for testing the proof search
+                            on BV.
+                        </p>
+                        <div class="flex items-center gap-2 text-sm text-stone-500 mb-3">
+                            <span>Advised by</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Lutz Straßburger</span>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">OCaml</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Proof Search</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">BV Logic</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Pomset Logic</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-stone-200 rounded-lg">
+                    <div class="p-6 border-b border-stone-200">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <h3 class="text-xl font-bold text-stone-900">
+                                    Proof Assistant for Categories encoded in an Equational Graphical Language
+                                </h3>
+                                <p class="text-olive-600 font-medium mt-1">École Polytechnique, Paris</p>
+                            </div>
+                            <span class="inline-block border border-olive-200 text-olive-700 px-3 py-1 rounded-full text-sm">
+                                Sep 2023 - Jan 2024
+                            </span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-stone-600 text-sm leading-relaxed mb-3">
+                            Research on the link between equational and graphical structures. Transforming the categorical
+                            definition of a terminal object to an equational definition using the work done by Albert Burroni.
+                            Defined the relevant type system and its rules for terms, contexts and equalities.
+                        </p>
+                        <div class="flex items-center gap-2 text-sm text-stone-500 mb-3">
+                            <span>Advised by</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Samuel Mimram</span>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Agda</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Category Theory</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Graphical Algebra</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Type Systems</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-stone-200 rounded-lg">
+                    <div class="p-6 border-b border-stone-200">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <h3 class="text-xl font-bold text-stone-900">
+                                    Domain Informed Oracle for Reinforcement Learning
+                                </h3>
+                                <p class="text-olive-600 font-medium mt-1">Carnegie Mellon University</p>
+                            </div>
+                            <span class="inline-block border border-olive-200 text-olive-700 px-3 py-1 rounded-full text-sm">
+                                Sep 2021 - Dec 2022
+                            </span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-stone-600 text-sm leading-relaxed mb-3">
+                            Implemented a domain-informed module in ProgLog to guide the reward shaping of a Reinforcement
+                            Learning (RL) module. Independently gathered related work to better identify the problem of reward
+                            shaping in RL and investigate possible solutions. Adapted a deep-learning architecture to include a
+                            logic module, the model was formalized accordingly.
+                        </p>
+                        <div class="flex items-center gap-2 text-sm text-stone-500 mb-3">
+                            <span>Advised by</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Giselle Reis</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Gianni Di Caro</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Eduardo Feo Flushing</span>
+                        </div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <a href="https://natvern.github.io/main.pdf" class="inline-flex items-center gap-1 text-olive-600 hover:text-olive-700 transition-colors text-sm">
+                                <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                                </svg>
+                                View Paper
+                            </a>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Reinforcement Learning</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Logic Programming</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Reward Shaping</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Deep Learning</span>
                         </div>
                     </div>
                 </div>
