@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rambling ¬Logician - Samar Rahmouni</title>
+    <title>About - Rambling ¬Logician</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -43,7 +43,7 @@
 <body class="min-h-screen bg-stone-50">
     <!-- Header -->
     <header class="border-b border-stone-200 bg-white/80 backdrop-blur-sm sticky top-0 z-50">
-        <div class="max-w-6xl mx-auto px-6 py-4">
+        <div class="max-w-4xl mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
                 <div>
                     <h1 class="text-2xl font-bold text-stone-900">
@@ -57,7 +57,7 @@
                     <a href="blog.html" class="text-stone-700 hover:text-olive-600 transition-colors font-medium">
                         Blog Archive
                     </a>
-                    <a href="about.html" class="text-stone-700 hover:text-olive-600 transition-colors font-medium">
+                    <a href="about.html" class="text-olive-600 font-medium">
                         About me
                     </a>
                 </nav>
@@ -65,216 +65,171 @@
         </div>
     </header>
 
-    <main class="max-w-6xl mx-auto px-6 py-12">
-        <!-- Hero Section -->
-        <section class="mb-16">
-            <div class="grid lg:grid-cols-3 gap-8">
-                <!-- Main Hero Content -->
-                <div class="lg:col-span-2">
-                    <div class="bg-gradient-to-br from-olive-50 to-stone-100 rounded-2xl p-8 border border-olive-100">
-                        <h2 class="text-3xl font-bold text-stone-900 mb-4">Welcome to my academic journey</h2>
-                        <p class="text-lg text-stone-700 leading-relaxed mb-6">
-                            Due to the lack of presence on social media, I figured a blog would be better to confirm that I am indeed
-                            a real person, a reasonable one at that (or at least I hope so). I might randomly ramble at given points,
-                            expect french or english writings depending on the weather.
-                        </p>
-                        <div class="flex items-center gap-4">
-                            <a href="blog.html" class="inline-flex items-center gap-2 bg-olive-600 hover:bg-olive-700 text-white px-4 py-2 rounded-md transition-colors">
+    <main class="max-w-4xl mx-auto px-6 py-12">
+        <!-- Back Navigation -->
+        <div class="mb-8">
+            <a href="index.html" class="inline-flex items-center gap-2 text-stone-600 hover:text-olive-600 transition-colors">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                </svg>
+                Back to Home
+            </a>
+        </div>
+
+        <!-- Profile Header -->
+        <section class="mb-12">
+            <div class="bg-gradient-to-br from-olive-50 to-stone-100 rounded-2xl p-8 border border-olive-100">
+                <div class="flex flex-col md:flex-row gap-8 items-start">
+                    <div class="flex-shrink-0">
+                        <div class="relative">
+                            <img src="images/new-profile-photo.png" alt="Samar Rahmouni" class="w-48 h-48 rounded-2xl object-cover shadow-lg">
+                            <div class="absolute inset-0 rounded-2xl ring-1 ring-black/10"></div>
+                        </div>
+                    </div>
+
+                    <div class="flex-1">
+                        <h1 class="text-4xl font-bold text-stone-900 mb-2">Samar Rahmouni</h1>
+                        <p class="text-xl text-olive-700 font-medium mb-4">Master's Student in Computer Science Research</p>
+
+                        <div class="space-y-3 mb-6">
+                            <div class="flex items-center gap-2 text-stone-600">
                                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
                                 </svg>
-                                Read Latest Posts
+                                École Polytechnique, Paris
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                            <div class="bg-white/60 rounded-lg p-4">
+                                <p class="text-stone-700 font-medium mb-1">Research Focus</p>
+                                <p class="text-stone-600">Formal Verification & Reinforcement Learning</p>
+                                <p class="text-olive-600 italic mt-2">"The future is neurosymbolic ——"</p>
+                            </div>
+                            <div class="bg-white/60 rounded-lg p-4">
+                                <p class="text-stone-700 font-medium mb-1">Languages</p>
+                                <p class="text-stone-600">English, French, Arabic</p>
+                            </div>
+                        </div>
+
+                        <div class="bg-white/60 rounded-lg p-4 mb-6">
+                            <p class="text-stone-700 font-medium mb-2">Personal Interests</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-olive-100 text-olive-800 px-2 py-1 rounded text-sm">Dungeons & Dragons</span>
+                                <span class="bg-olive-100 text-olive-800 px-2 py-1 rounded text-sm">Philosophy</span>
+                                <span class="bg-olive-100 text-olive-800 px-2 py-1 rounded text-sm">Logic Puzzles</span>
+                                <span class="bg-olive-100 text-olive-800 px-2 py-1 rounded text-sm">Academic Writing</span>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-wrap gap-3">
+                            <a href="samar-rahmouni-cv.pdf" download="samar-rahmouni-cv.pdf" class="inline-flex items-center gap-2 bg-olive-600 hover:bg-olive-700 text-white px-4 py-2 rounded-md transition-colors">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                                </svg>
+                                Download CV
                             </a>
                             <a href="mailto:samar.rahmouni@outlook.com" class="inline-flex items-center gap-2 border border-olive-200 text-olive-700 hover:bg-olive-50 bg-transparent px-4 py-2 rounded-md transition-colors">
                                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                                 </svg>
-                                Get in Touch
+                                Contact Me
                             </a>
                         </div>
                     </div>
                 </div>
-
-                <!-- Quick Info Sidebar -->
-                <div class="space-y-6">
-                    <!-- Profile Card -->
-                    <div class="bg-white border border-stone-200 rounded-lg p-6">
-                        <div class="flex items-center gap-4 mb-4">
-                            <img src="images/new-profile-photo.png" alt="Samar Rahmouni" class="w-16 h-16 rounded-xl object-cover">
-                            <div>
-                                <h3 class="font-bold text-stone-900">Samar Rahmouni</h3>
-                                <p class="text-sm text-olive-600">Master's Student</p>
-                                <p class="text-xs text-stone-500">École Polytechnique, Paris</p>
-                            </div>
-                        </div>
-                        <div class="space-y-2 text-sm">
-                            <div class="flex items-center gap-2">
-                                <svg class="w-4 h-4 text-olive-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
-                                </svg>
-                                <span class="text-stone-600">Formal Verification & RL</span>
-                            </div>
-                            <div class="flex items-center gap-2">
-                                <svg class="w-4 h-4 text-olive-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"></path>
-                                </svg>
-                                <span class="text-stone-600">English, French, Arabic</span>
-                            </div>
-                        </div>
-                        <div class="mt-4 pt-4 border-t border-stone-200">
-                            <p class="text-xs text-olive-600 italic">"The future is neurosymbolic ——"</p>
-                        </div>
-                    </div>
-
-                    <!-- Current Research -->
-                    <div class="bg-white border border-stone-200 rounded-lg p-6">
-                        <h4 class="font-semibold text-stone-900 mb-3">Current Research</h4>
-                        <div class="space-y-3">
-                            <div>
-                                <h5 class="text-sm font-medium text-stone-900">IS4 Decidability in Coq</h5>
-                                <p class="text-xs text-stone-600">Formalizing decidability proof for intuitionistic modal logic</p>
-                                <span class="inline-block bg-olive-100 text-olive-800 px-2 py-1 rounded text-xs mt-1">INRIA Saclay</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Quick Stats -->
-                    <div class="bg-white border border-stone-200 rounded-lg p-6">
-                        <h4 class="font-semibold text-stone-900 mb-3">Quick Stats</h4>
-                        <div class="grid grid-cols-2 gap-4 text-center">
-                            <div>
-                                <div class="text-2xl font-bold text-olive-600">5+</div>
-                                <div class="text-xs text-stone-600">Research Projects</div>
-                            </div>
-                            <div>
-                                <div class="text-2xl font-bold text-olive-600">2</div>
-                                <div class="text-xs text-stone-600">Blog Posts</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
 
-        <!-- Research Highlights -->
-        <section class="mb-16">
-            <div class="flex items-center justify-between mb-8">
-                <h2 class="text-2xl font-bold text-stone-900">Research Highlights</h2>
-                <a href="about.html#research" class="text-olive-600 hover:text-olive-700 text-sm font-medium">View All Projects →</a>
-            </div>
-
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="bg-white border border-stone-200 rounded-lg p-6 hover:shadow-md transition-shadow">
-                    <div class="flex items-start justify-between mb-3">
-                        <h3 class="font-semibold text-stone-900 text-sm">Proof Search in BV Logic</h3>
-                        <span class="bg-olive-100 text-olive-800 px-2 py-1 rounded text-xs">2024</span>
-                    </div>
-                    <p class="text-stone-600 text-sm mb-3">OCaml implementation for proof search in Pomset and BV logic using graph cycles.</p>
-                    <div class="flex flex-wrap gap-1">
-                        <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">OCaml</span>
-                        <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Logic</span>
-                    </div>
-                </div>
-
-                <div class="bg-white border border-stone-200 rounded-lg p-6 hover:shadow-md transition-shadow">
-                    <div class="flex items-start justify-between mb-3">
-                        <h3 class="font-semibold text-stone-900 text-sm">RL Domain Oracle</h3>
-                        <span class="bg-olive-100 text-olive-800 px-2 py-1 rounded text-xs">2022</span>
-                    </div>
-                    <p class="text-stone-600 text-sm mb-3">Domain-informed module for reward shaping in reinforcement learning using logic programming.</p>
-                    <div class="flex flex-wrap gap-1">
-                        <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">RL</span>
-                        <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Logic</span>
-                    </div>
-                </div>
-
-                <div class="bg-white border border-stone-200 rounded-lg p-6 hover:shadow-md transition-shadow">
-                    <div class="flex items-start justify-between mb-3">
-                        <h3 class="font-semibold text-stone-900 text-sm">Category Theory Proof Assistant</h3>
-                        <span class="bg-olive-100 text-olive-800 px-2 py-1 rounded text-xs">2023</span>
-                    </div>
-                    <p class="text-stone-600 text-sm mb-3">Equational graphical language for categories with type system formalization.</p>
-                    <div class="flex flex-wrap gap-1">
-                        <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Agda</span>
-                        <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Category Theory</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- About Section -->
-        <section id="about" class="mb-16">
-            <div class="grid lg:grid-cols-3 gap-8">
-                <div class="lg:col-span-2">
-                    <div class="bg-white border border-stone-200 rounded-lg">
-                        <div class="p-6 border-b border-stone-200">
-                            <h3 class="text-2xl font-bold text-stone-900">About Me</h3>
-                            <p class="text-stone-600 mt-1">A few things that define my academic and personal interests</p>
-                        </div>
-                        <div class="p-6">
-                            <div class="grid md:grid-cols-2 gap-6">
-                                <div class="space-y-4">
-                                    <div class="flex items-start gap-3">
-                                        <div class="w-2 h-2 bg-olive-500 rounded-full mt-2 flex-shrink-0"></div>
-                                        <div>
-                                            <h4 class="font-semibold text-stone-900 mb-1">Computer Science B.S.</h4>
-                                            <p class="text-stone-600 text-sm">Carnegie Mellon University</p>
-                                            <p class="text-stone-500 text-xs">Concentration in Programming Languages</p>
-                                        </div>
-                                    </div>
-                                    <div class="flex items-start gap-3">
-                                        <div class="w-2 h-2 bg-olive-500 rounded-full mt-2 flex-shrink-0"></div>
-                                        <div>
-                                            <h4 class="font-semibold text-stone-900 mb-1">Research Focus</h4>
-                                            <p class="text-stone-600 text-sm">Formal verification, logic programming & proof theory</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="space-y-4">
-                                    <div class="flex items-start gap-3">
-                                        <div class="w-2 h-2 bg-olive-500 rounded-full mt-2 flex-shrink-0"></div>
-                                        <div>
-                                            <h4 class="font-semibold text-stone-900 mb-1">AI & Machine Learning</h4>
-                                            <p class="text-stone-600 text-sm">Reinforcement Learning & Symbolic AI believer</p>
-                                        </div>
-                                    </div>
-                                    <div class="flex items-start gap-3">
-                                        <div class="w-2 h-2 bg-olive-500 rounded-full mt-2 flex-shrink-0"></div>
-                                        <div>
-                                            <h4 class="font-semibold text-stone-900 mb-1">Personal Interests</h4>
-                                            <div class="flex flex-wrap gap-1 mt-1">
-                                                <span class="bg-olive-100 text-olive-800 px-2 py-1 rounded text-xs">D&D</span>
-                                                <span class="bg-olive-100 text-olive-800 px-2 py-1 rounded text-xs">Philosophy</span>
-                                                <span class="bg-olive-100 text-olive-800 px-2 py-1 rounded text-xs">Logic Puzzles</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+        <!-- Education Section -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-stone-900 mb-6">Education</h2>
+            
+            <div class="space-y-6">
+                <!-- Current Master's Program -->
+                <div class="bg-white border border-stone-200 rounded-lg">
+                    <div class="p-6 border-b border-stone-200">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <h3 class="text-xl font-bold text-stone-900">Master en Recherche Informatique</h3>
+                                <p class="text-olive-600 font-medium mt-1">École Polytechnique, Paris</p>
                             </div>
+                            <span class="inline-block border border-olive-200 text-olive-700 px-3 py-1 rounded-full text-sm">
+                                2023 - Present
+                            </span>
                         </div>
                     </div>
-                </div>
-
-                <!-- Education Timeline -->
-                <div>
-                    <div class="bg-white border border-stone-200 rounded-lg p-6">
-                        <h4 class="font-semibold text-stone-900 mb-4">Education Timeline</h4>
+                    <div class="p-6">
                         <div class="space-y-4">
-                            <div class="relative pl-6">
-                                <div class="absolute left-0 top-2 w-2 h-2 bg-olive-500 rounded-full"></div>
-                                <div class="absolute left-1 top-4 w-0.5 h-12 bg-olive-200"></div>
-                                <div>
-                                    <h5 class="font-medium text-stone-900 text-sm">Master's in CS Research</h5>
-                                    <p class="text-xs text-olive-600">École Polytechnique</p>
-                                    <p class="text-xs text-stone-500">2023 - Present</p>
+                            <div>
+                                <h4 class="font-semibold text-stone-900 mb-2">Current Research</h4>
+                                <div class="bg-stone-50 rounded-lg p-4">
+                                    <h5 class="font-medium text-stone-900 mb-1">
+                                        Stage M2: Formalizing the Decidability proof for IS4 in Coq
+                                    </h5>
+                                    <p class="text-stone-600 text-sm mb-2">
+                                        Working on formalizing the decidability proof for IS4 (intuitionistic modal logic) in Coq. The
+                                        proof proceeds on a labelled sequent calculus of IS4, formalizing syntax and semantics.
+                                        Currently proving that cut elimination is admissible in this logic.
+                                    </p>
+                                    <div class="flex items-center gap-2 text-sm text-stone-500 mb-2">
+                                        <span>Advised by</span>
+                                        <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Lutz Straßburger</span>
+                                    </div>
+                                    <div class="flex items-center gap-2 text-sm text-stone-500">
+                                        <span>Institution:</span>
+                                        <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Partout - INRIA Saclay</span>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="relative pl-6">
-                                <div class="absolute left-0 top-2 w-2 h-2 bg-stone-400 rounded-full"></div>
+                            <div class="space-y-3">
+                                <div class="flex items-start gap-3">
+                                    <div class="w-2 h-2 bg-olive-500 rounded-full mt-2 flex-shrink-0"></div>
+                                    <div>
+                                        <p class="text-stone-600 text-sm">
+                                            <span class="font-medium text-stone-900">Focus:</span> Formal verification and proof theory
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carnegie Mellon Education -->
+                <div class="bg-white border border-stone-200 rounded-lg">
+                    <div class="p-6 border-b border-stone-200">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <h3 class="text-xl font-bold text-stone-900">Bachelor of Science in Computer Science</h3>
+                                <p class="text-olive-600 font-medium mt-1">Carnegie Mellon University, Pittsburgh, PA</p>
+                            </div>
+                            <span class="inline-block border border-olive-200 text-olive-700 px-3 py-1 rounded-full text-sm">
+                                2018 - 2023
+                            </span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="space-y-3">
+                            <div class="flex items-start gap-3">
+                                <div class="w-2 h-2 bg-olive-500 rounded-full mt-2 flex-shrink-0"></div>
                                 <div>
-                                    <h5 class="font-medium text-stone-900 text-sm">B.S. Computer Science</h5>
-                                    <p class="text-xs text-olive-600">Carnegie Mellon</p>
-                                    <p class="text-xs text-stone-500">2018 - 2023</p>
+                                    <p class="text-stone-600 text-sm">
+                                        <span class="font-medium text-stone-900">Honors Thesis:</span> Domain Informed Oracle for
+                                        Reinforcement Learning
+                                    </p>
+                                    <p class="text-stone-500 text-xs mt-1">
+                                        Advised by Giselle Reis, Gianni Di Caro and Eduardo Feo Flushing
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <div class="w-2 h-2 bg-olive-500 rounded-full mt-2 flex-shrink-0"></div>
+                                <div>
+                                    <p class="text-stone-600 text-sm">
+                                        <span class="font-medium text-stone-900">Concentration:</span> Programming Languages
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -283,68 +238,231 @@
             </div>
         </section>
 
-        <!-- Posts Section -->
-        <section id="posts">
-            <div class="flex items-center justify-between mb-8">
-                <h2 class="text-2xl font-bold text-stone-900">Recent Posts</h2>
-                <a href="blog.html" class="text-olive-600 hover:text-olive-700 text-sm font-medium">View All Posts →</a>
-            </div>
+        <!-- Research Projects Section -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-stone-900 mb-6">Research Projects</h2>
 
-            <div class="grid md:grid-cols-2 gap-6">
-                <div class="bg-white border border-stone-200 rounded-lg hover:shadow-md transition-shadow">
-                    <div class="p-6">
-                        <div class="flex items-center justify-between mb-4">
-                            <div class="flex items-center gap-2 text-sm text-stone-500">
-                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-                                </svg>
-                                May 25, 2024
+            <div class="space-y-6">
+                <div class="bg-white border border-stone-200 rounded-lg">
+                    <div class="p-6 border-b border-stone-200">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <h3 class="text-xl font-bold text-stone-900">Proof Search in Pomset and BV logic</h3>
+                                <p class="text-olive-600 font-medium mt-1">Partout - INRIA Saclay</p>
                             </div>
-                            <span class="bg-olive-100 text-olive-800 px-2 py-1 rounded text-xs">5 min read</span>
+                            <span class="inline-block border border-olive-200 text-olive-700 px-3 py-1 rounded-full text-sm">
+                                Apr 2024 - Aug 2024
+                            </span>
                         </div>
-                        <h3 class="text-xl font-bold mb-2">
-                            <a href="blog-life-in-france.html" class="text-stone-900 hover:text-olive-600 transition-colors flex items-center gap-2">
-                                Life in France
-                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-                                </svg>
-                            </a>
-                        </h3>
-                        <p class="text-stone-600 mb-3">
-                            Reflections on academic life and cultural experiences during my time in France. Finding balance after difficult times and discovering new mathematical abstractions.
+                    </div>
+                    <div class="p-6">
+                        <p class="text-stone-600 text-sm leading-relaxed mb-3">
+                            Implementation was done in OCaml while making use of the 'Logical' tool for the proof search of BV,
+                            specifically. Proof search in Pomset was implemented as the search of cycles on graphs: restricted to
+                            balanced formulas. The implementation in Pomset was used as a benchmark for testing the proof search
+                            on BV.
                         </p>
-                        <div class="flex items-center gap-2">
-                            <span class="bg-stone-100 text-stone-700 px-2 py-1 rounded text-xs">Personal</span>
-                            <span class="bg-stone-100 text-stone-700 px-2 py-1 rounded text-xs">Academic Life</span>
+                        <div class="flex items-center gap-2 text-sm text-stone-500 mb-3">
+                            <span>Advised by</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Lutz Straßburger</span>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">OCaml</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Proof Search</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">BV Logic</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Pomset Logic</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="bg-white border border-stone-200 rounded-lg hover:shadow-md transition-shadow">
-                    <div class="p-6">
-                        <div class="flex items-center justify-between mb-4">
-                            <div class="flex items-center gap-2 text-sm text-stone-500">
-                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-                                </svg>
-                                Sep 17, 2022
+                <div class="bg-white border border-stone-200 rounded-lg">
+                    <div class="p-6 border-b border-stone-200">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <h3 class="text-xl font-bold text-stone-900">
+                                    Proof Assistant for Categories encoded in an Equational Graphical Language
+                                </h3>
+                                <p class="text-olive-600 font-medium mt-1">École Polytechnique, Paris</p>
                             </div>
-                            <span class="bg-olive-100 text-olive-800 px-2 py-1 rounded text-xs">7 min read</span>
+                            <span class="inline-block border border-olive-200 text-olive-700 px-3 py-1 rounded-full text-sm">
+                                Sep 2023 - Jan 2024
+                            </span>
                         </div>
-                        <h3 class="text-xl font-bold mb-2">
-                            <a href="blog-burn-out.html" class="text-stone-900 hover:text-olive-600 transition-colors flex items-center gap-2">
-                                Burn-out
-                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    </div>
+                    <div class="p-6">
+                        <p class="text-stone-600 text-sm leading-relaxed mb-3">
+                            Research on the link between equational and graphical structures. Transforming the categorical
+                            definition of a terminal object to an equational definition using the work done by Albert Burroni.
+                            Defined the relevant type system and its rules for terms, contexts and equalities.
+                        </p>
+                        <div class="flex items-center gap-2 text-sm text-stone-500 mb-3">
+                            <span>Advised by</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Samuel Mimram</span>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Agda</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Category Theory</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Graphical Algebra</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Type Systems</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-stone-200 rounded-lg">
+                    <div class="p-6 border-b border-stone-200">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <h3 class="text-xl font-bold text-stone-900">
+                                    Domain Informed Oracle for Reinforcement Learning
+                                </h3>
+                                <p class="text-olive-600 font-medium mt-1">Carnegie Mellon University</p>
+                            </div>
+                            <span class="inline-block border border-olive-200 text-olive-700 px-3 py-1 rounded-full text-sm">
+                                Sep 2021 - Dec 2022
+                            </span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-stone-600 text-sm leading-relaxed mb-3">
+                            Implemented a domain-informed module in ProgLog to guide the reward shaping of a Reinforcement
+                            Learning (RL) module. Independently gathered related work to better identify the problem of reward
+                            shaping in RL and investigate possible solutions. Adapted a deep-learning architecture to include a
+                            logic module, the model was formalized accordingly.
+                        </p>
+                        <div class="flex items-center gap-2 text-sm text-stone-500 mb-3">
+                            <span>Advised by</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Giselle Reis</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Gianni Di Caro</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Eduardo Feo Flushing</span>
+                        </div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <a href="main.pdf" class="inline-flex items-center gap-1 text-olive-600 hover:text-olive-700 transition-colors text-sm">
+                                <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
                                 </svg>
+                                View Report
                             </a>
-                        </h3>
-                        <p class="text-stone-600 mb-3">
-                            Personal thoughts on academic burnout and the unsustainable culture of American university life. Recognizing burnout as a natural response to systemic pressures.
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Reinforcement Learning</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Logic Programming</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Reward Shaping</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Deep Learning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-stone-200 rounded-lg">
+                    <div class="p-6 border-b border-stone-200">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <h3 class="text-xl font-bold text-stone-900">
+                                    Proof Search and Certificates for Evidential Transactions
+                                </h3>
+                                <p class="text-olive-600 font-medium mt-1">Carnegie Mellon University Qatar</p>
+                            </div>
+                            <span class="inline-block border border-olive-200 text-olive-700 px-3 py-1 rounded-full text-sm">
+                                Dec 2020 - Feb 2021
+                            </span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-stone-600 text-sm leading-relaxed mb-3">
+                            Provided a logical framework for distributed evidential transactions. Compiled relevant related work
+                            and proved cut-elimination for the logic (interesting proof found in annex of the paper).
                         </p>
-                        <div class="flex items-center gap-2">
-                            <span class="bg-stone-100 text-stone-700 px-2 py-1 rounded text-xs">Mental Health</span>
-                            <span class="bg-stone-100 text-stone-700 px-2 py-1 rounded text-xs">Academic Life</span>
+                        <div class="flex items-center gap-2 text-sm text-stone-500 mb-3">
+                            <span>Co-authors</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Vivek Nigam</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Giselle Reis</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Harald Ruess</span>
+                        </div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <a href="https://nigam.info/docs/cade21.pdf" class="inline-flex items-center gap-1 text-olive-600 hover:text-olive-700 transition-colors text-sm">
+                                <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                                </svg>
+                                CADE28 Paper
+                            </a>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Proof Theory</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Distributed Systems</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Cut Elimination</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Logic Frameworks</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-stone-200 rounded-lg">
+                    <div class="p-6 border-b border-stone-200">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <h3 class="text-xl font-bold text-stone-900">
+                                    Behavioral Modulation of a Reinforcement Learning Controller using Artificial Emotions
+                                </h3>
+                                <p class="text-olive-600 font-medium mt-1">Carnegie Mellon University Qatar</p>
+                            </div>
+                            <span class="inline-block border border-olive-200 text-olive-700 px-3 py-1 rounded-full text-sm">
+                                May 2020 - Sep 2020
+                            </span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-stone-600 text-sm leading-relaxed mb-3">
+                            Formalized and implemented a survival game scenario based on predators and preys. Action is determined
+                            by behavior and decision in the environment. Experimenting on outcomes of behavioral modulations and
+                            its learned effects on decisions.
+                        </p>
+                        <div class="flex items-center gap-2 text-sm text-stone-500 mb-3">
+                            <span>Advised by</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Gianni Di Caro</span>
+                        </div>
+                        <div class="flex items-center gap-2 text-sm text-stone-500 mb-3">
+                            <span>Funded by</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">QSIURP 2021</span>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Reinforcement Learning</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Artificial Emotions</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Game Theory</span>
+                            <span class="bg-stone-200 text-stone-700 px-2 py-1 rounded text-xs">Behavioral Modeling</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section>
+            <h2 class="text-2xl font-bold text-stone-900 mb-6">Get in Touch</h2>
+            <div class="bg-white border border-stone-200 rounded-lg">
+                <div class="p-6">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <h4 class="font-semibold text-stone-900 mb-4">Contact Information</h4>
+                            <div class="space-y-3">
+                                <a href="mailto:samar.rahmouni@outlook.com" class="flex items-center gap-3 text-stone-600 hover:text-olive-600 transition-colors">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                    </svg>
+                                    <span>samar.rahmouni@outlook.com</span>
+                                </a>
+                                <a href="https://github.com/natvern" class="flex items-center gap-3 text-stone-600 hover:text-olive-600 transition-colors">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"></path>
+                                    </svg>
+                                    <span>github.com/natvern</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-stone-900 mb-4">Academic Collaboration</h4>
+                            <p class="text-stone-600 text-sm leading-relaxed">
+                                I'm always interested in discussing research opportunities, collaborations, or simply exchanging
+                                ideas about formal methods, AI, and the intersection of symbolic and neural approaches to
+                                computation.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -354,56 +472,7 @@
 
     <!-- Footer -->
     <footer class="bg-white border-t border-stone-200 mt-20">
-        <div class="max-w-6xl mx-auto px-6 py-12">
-            <div class="grid md:grid-cols-4 gap-8">
-                <div>
-                    <h3 class="font-bold text-stone-900 mb-4">Rambling ¬Logician</h3>
-                    <p class="text-stone-600 text-sm leading-relaxed">
-                        Samar Rahmouni<br>
-                        PhD Student & Researcher<br>
-                        École Polytechnique, Paris
-                    </p>
-                </div>
-
-                <div>
-                    <h4 class="font-semibold text-stone-900 mb-4">Research Areas</h4>
-                    <div class="space-y-2 text-sm">
-                        <p class="text-stone-600">Formal Verification</p>
-                        <p class="text-stone-600">Proof Theory</p>
-                        <p class="text-stone-600">Reinforcement Learning</p>
-                        <p class="text-stone-600">Logic Programming</p>
-                    </div>
-                </div>
-
-                <div>
-                    <h4 class="font-semibold text-stone-900 mb-4">Connect</h4>
-                    <div class="space-y-2">
-                        <a href="mailto:samar.rahmouni@outlook.com" class="flex items-center gap-2 text-stone-600 hover:text-olive-600 transition-colors text-sm">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-                            </svg>
-                            Email
-                        </a>
-                        <a href="https://github.com/natvern" class="flex items-center gap-2 text-stone-600 hover:text-olive-600 transition-colors text-sm">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"></path>
-                            </svg>
-                            GitHub
-                        </a>
-                    </div>
-                </div>
-
-                <div>
-                    <h4 class="font-semibold text-stone-900 mb-4">Philosophy</h4>
-                    <p class="text-stone-600 text-sm italic">"The Future is Neurosymbolic"</p>
-                    <div class="mt-4">
-                        <p class="text-stone-500 text-xs">Languages: English, French, Arabic</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="border-t border-stone-200 my-8"></div>
-
+        <div class="max-w-4xl mx-auto px-6 py-8">
             <div class="text-center text-stone-500 text-sm">
                 <p>© 2024 Samar Rahmouni. Built with care for the academic community.</p>
             </div>
